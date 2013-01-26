@@ -1,0 +1,8 @@
+Utility functions for reading lattice data from a lime file.
+
+The current version is a serial version and requires the lime library to be available.
+You can get lime from here http://usqcd.jlab.org/usqcd-docs/c-lime/.
+
+Include read_lime_data.h in your main program and compile as:
+
+gcc  myprog.out myprog.c read_lime_data.c -I/lime_install_directory/include -L/lime_install_directory/lib -llime
